@@ -1,8 +1,22 @@
 aid: saliogen-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saliogen-therapeutics.png
 name: SalioGen Therapeutics
-description: 'SalioGen Therapeutics is a company surfaced as a portfolio company of d1-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'SalioGen Therapeutics was a next-generation genetic medicine company, formerly based in
+  Lexington, Massachusetts, developing gene therapies. It was surfaced as a portfolio company of d1-capital
+  and added to the API Evangelist network as a biotech stub. As of the 2026-07-21 enrichment pass its
+  website (saliogen.com) serves only a minimal holding page indicating the company is no longer operating;
+  no developer portal, API, documentation, blog, or other public technical surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/saliogen-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Biotech
+- Genetic Medicine
+- Gene Therapy
+- Life Sciences
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +41,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/saliogen-therapeutics-domain-security.yml
 - type: Website
   url: https://saliogen.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
